@@ -17,7 +17,6 @@ const LatestReleases = () => {
         <div className='text-center py-8 text-3x1'>
             <Title text1={'LATEST'} text2={'RELEASES'} />
             <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-60'> 
-            kenapa di sini ada Lorem Ipsum
             </p>
         </div>
 
