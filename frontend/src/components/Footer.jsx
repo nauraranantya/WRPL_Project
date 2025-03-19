@@ -8,8 +8,10 @@ const Footer = () => {
        
             <div>
                 <img src={assets.logo} className='mb-5 w-32' alt="" /> 
-                <p className='w-full md:w2/3 text-gray-600'>
-                    kenapa ada Lorem Ipsum lagi (put description of our brand?)
+                <p className='w-80 md:w2/3 text-gray-600'>
+                Explore a world of stories, knowledge, and imagination. 
+                Whether you're searching for adventure, insight, or a quiet escape, there's a book waiting for you. 
+                Start your next chapter today.
                 </p>
             </div>
 
