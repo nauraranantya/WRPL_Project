@@ -64,8 +64,6 @@ import star_dull_icon from './star_dull_icon.png'
 import star_icon from './star_icon.png'
 import support_img from './support_img.png'
 import menu_icon from './menu_icon.png'
-import about_img from './about_img.png'
-import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
@@ -84,8 +82,6 @@ export const assets = {
     bin_icon,
     support_img,
     menu_icon,
-    about_img,
-    contact_img,
     razorpay_logo,
     stripe_logo,
     cross_icon
@@ -171,7 +167,7 @@ export const products = [
         price: 12.45,
         image: [image7],
         genre: "Non-Fiction",
-        subCategory: "Bottomwear",
+        subCategory: "Young Adult",
         cover: ["Hardcover", "Softcover", "Softcover with Sleeve"],
         date: 20071017,
         bestseller: false
@@ -182,8 +178,8 @@ export const products = [
         synopsis: "“Do you like green eggs and ham?” asks Sam-I-am in this Beginner Book by Dr. Seuss. In a house or with a mouse? In a boat or with a goat? On a train or in a tree? Sam keeps asking persistently. With unmistakable characters and signature rhymes, Dr. Seuss’s beloved favorite has cemented its place as a children’s classic. In this most famous of cumulative tales, the list of places to enjoy green eggs and ham, and friends to enjoy them with, gets longer and longer. Follow Sam-I-am as he insists that this unusual treat is indeed a delectable snack to be savored everywhere and in every way.",
         price: 5.5,
         image: [image8],
-        genre: "Men",
-        subCategory: "Topwear",
+        genre: "Children's Books",
+        subCategory: "Children",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20250123,
         bestseller: false
@@ -195,7 +191,7 @@ export const products = [
         price: 11.25,
         image: [image9],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20100903,
         bestseller: false
@@ -207,7 +203,7 @@ export const products = [
         price: 23.5,
         image: [image10],
         genre: "Fiction",
-        subCategory: "Bottomwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20111110,
         bestseller: false
@@ -219,7 +215,7 @@ export const products = [
         price: 12.12,
         image: [image11],
         genre: "Nonfiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20121011,
         bestseller: false
@@ -231,7 +227,7 @@ export const products = [
         price: 27.25,
         image: [image12],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20121218,
         bestseller: false
@@ -239,11 +235,11 @@ export const products = [
     {
         _id: "1013",
         name: "Kafka on the Shore",
-        synopsis: "afka on the Shore, a tour de force of metaphysical reality, is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long-missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now is drawn toward Kafka for reasons that, like the most basic activities of daily life, he cannot fathom. Their odyssey, as mysterious to them as it is to us, is enriched throughout by vivid accomplices and mesmerizing events.",
+        synopsis: "Kafka on the Shore, a tour de force of metaphysical reality, is powered by two remarkable characters: a teenage boy, Kafka Tamura, who runs away from home either to escape a gruesome oedipal prophecy or to search for his long-missing mother and sister; and an aging simpleton called Nakata, who never recovered from a wartime affliction and now is drawn toward Kafka for reasons that, like the most basic activities of daily life, he cannot fathom. Their odyssey, as mysterious to them as it is to us, is enriched throughout by vivid accomplices and mesmerizing events.",
         price: 15.55,
         image: [image13],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20101213,
         bestseller: false
@@ -255,7 +251,7 @@ export const products = [
         price: 12.25,
         image: [image14],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover","Softcover with Sleeve"],
         date: 20141028,
         bestseller: false
@@ -267,7 +263,7 @@ export const products = [
         price: 20,
         image: [image15],
         genre: "Fiction",
-        subCategory: "Bottomwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20101015,
         bestseller: true
@@ -279,7 +275,7 @@ export const products = [
         price: 11,
         image: [image16],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20161017,
         bestseller: false
@@ -303,7 +299,7 @@ export const products = [
         price: 18.75,
         image: [image18],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Young Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20181018,
         bestseller: false
@@ -315,7 +311,7 @@ export const products = [
         price: 10.55,
         image: [image19],
         genre: "Fiction",
-        subCategory: "Topwear",
+        subCategory: "Adult",
         cover: ["Hardcover", "Softcover", "Softcover with Sleeve"],
         date: 20190901,
         bestseller: false
@@ -327,7 +323,7 @@ export const products = [
         price: 14.45,
         image: [image20],
         genre: "Fiction",
-        subCategory: "Young Adult",
+        subCategory: "Children",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20100214,
         bestseller: true
@@ -339,7 +335,7 @@ export const products = [
         price: 10,
         image: [image21],
         genre: "Fiction",
-        subCategory: "Winterwear",
+        subCategory: "Young Adult",
         cover: ["Hardcover", "Softcover", "Softcover with Sleeve"],
         date: 20100201,
         bestseller: false
@@ -579,7 +575,7 @@ export const products = [
         price: 40.45,
         image: [image41],
         genre: "Fiction",
-        subCategory: "YOung Adult",
+        subCategory: "Young Adult",
         cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
         date: 20200629,
         bestseller: false

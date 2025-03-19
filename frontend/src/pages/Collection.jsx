@@ -32,6 +32,7 @@ const Collection = () => {
 
   // Apply filters
   const applyFilter = () => {
+    
     let productsCopy = products.slice();
 
     if (showSearch && search) {
@@ -46,7 +47,7 @@ const Collection = () => {
     
 
     if (subCategory.length > 0) {
-      productsCopy = productsCopy.filter((item) => subCategory.includes(item.ageRating));
+      productsCopy = productsCopy.filter((item) => subCategory.includes(item.subCategory));
     }
 
     setFilterProducts(productsCopy);
