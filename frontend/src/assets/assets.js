@@ -393,8 +393,113 @@ export const products = [
         bestseller: false
     },
     {
+        _id: "1017",
+        name: "The Grouchy Ladybug",
+        author: "Eric Carle",
+        synopsis: "As children follow the Grouchy Ladybug on her journey, they will learn the important concepts of time, size, and shape, as well as the benefits of friendship and good manners.",
+        price: 10.5,
+        image: "image17.jpg",
+        genre: "Children's Books",
+        subCategory: "Children",
+        cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
+        date: "2015-10-17",
+        bestseller: false
+    },
+    {
+        _id: "1018",
+        name: "Emma",
+        author: "Jane Austen",
+        synopsis: "Emma Woodhouse is one of Austen's most captivating and vivid characters. Beautiful, spoilt, vain and irrepressibly witty, Emma organizes the lives of the inhabitants of her sleepy little village and plays matchmaker with devastating effect.",
+        price: 18.75,
+        image: "image18.jpg",
+        genre: "Fiction",
+        subCategory: "Young Adult",
+        cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
+        date: "2018-10-18",
+        bestseller: false
+    },
+    {
+        _id: "1019",
+        name: "Reader's Block",
+        author: "David Markson",
+        synopsis: "In this spellbinding, utterly unconventional fiction, an aging author who is identified only as Reader contemplates the writing of a novel. As he does, other matters insistently crowd his mind - literary and cultural anecdotes, endless quotations attributed and not, scholarly curiosities - the residue of a lifetime's reading which is apparently all he has to show for his decades on earth.",
+        price: 10.55,
+        image: "image19.jpg",
+        genre: "Fiction",
+        subCategory: "Adult",
+        cover: ["Hardcover", "Softcover", "Softcover with Sleeve"],
+        date: "2019-09-01",
+        bestseller: false
+    },
+    {
+        _id: "1020",
+        name: "The Little Prince",
+        author: "Antoine de Saint-Exupéry",
+        synopsis: "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. Please asks the stranger, draw me a sheep. And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries.",
+        price: 14.45,
+        image: "image20.jpg",
+        genre: "Fiction",
+        subCategory: "Children",
+        cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
+        date: "2010-02-14",
+        bestseller: true
+    },
+    {
+        _id: "1021",
+        name: "Mr. Standfast",
+        author: "John Buchan",
+        synopsis: "In this nail-biting adventure story, Hannay must outwit a foe far more intelligent than himself; muster the courage to propose to the lovely, clever Mary Lamington; and survive a brutal war.",
+        price: 10,
+        image: "image21.jpg",
+        genre: "Fiction",
+        subCategory: "Young Adult",
+        cover: ["Hardcover", "Softcover", "Softcover with Sleeve"],
+        date: "2010-02-01",
+        bestseller: false
+    },
+    {
+        _id: "1022",
+        name: "Harry Potter and the Sorcerer's Stone",
+        author: "J.K. Rowling",
+        synopsis: "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle.",
+        price: 45.5,
+        image: "image22.jpg",
+        genre: "Fiction",
+        subCategory: "Young Adult",
+        cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
+        date: "2024-05-05",
+        bestseller: true
+    },
+    {
+        _id: "1023",
+        name: "Vanishing Point",
+        author: "David Markson",
+        synopsis: "And now comes his latest masterwork, Vanishing Point, wherein an elderly writer sets out to transform shoeboxes crammed with notecards into a novel.",
+        price: 12,
+        image: "image23.jpg",
+        genre: "Fiction",
+        subCategory: "Adult",
+        cover: ["Hardcover", "Softcover", "Softcover with Sleeve"],
+        date: "2001-02-24",
+        bestseller: false
+    },
+    {
+        _id: "1024",
+        name: "Harry Potter and the Chamber of Secrets",
+        author: "J.K. Rowling",
+        synopsis: "Ever since Harry Potter had come home for the summer, the Dursleys had been so mean and hideous that all Harry wanted was to get back to the Hogwarts School for Witchcraft and Wizardry.",
+        price: 45,
+        image: "image24.jpg",
+        genre: "Fiction",
+        subCategory: "Young Adult",
+        cover: ["Hardcover", "Softcover", "Hardcover with Sleeve" ,"Softcover with Sleeve"],
+        date: "2024-04-05",
+        bestseller: false
+    },
+    {
         _id: "1025",
         name: "Misery",
+        author: "Stephen King",
         synopsis: "Paul Sheldon. He's a bestselling novelist who has finally met his biggest fan. Her name is Annie Wilkes and she is more than a rabid reader - she is Paul's nurse, tending his shattered body after an automobile accident. But she is also his captor, keeping him prisoner in her isolated house.",
         price: 10.75,
         image: [image25],
@@ -407,7 +512,8 @@ export const products = [
     {
         _id: "1026",
         name: "Fingersmith",
-        synopsis: "Sue Trinder is an orphan, left as an infant in the care of Mrs. Sucksby, a baby farmer, who raised her with unusual tenderness, as if Sue were her own. Mrs. Sucksby’s household, with its fussy babies calmed with doses of gin, also hosts a transient family of petty thieves—fingersmiths—for whom this house in the heart of a mean London slum is home. One day, the most beloved thief of all arrives—Gentleman, an elegant con man, who carries with him an enticing proposition for Sue: If she wins a position as the maid to Maud Lilly, a naïve gentlewoman, and aids Gentleman in her seduction, then they will all share in Maud’s vast inheritance. Once the inheritance is secured, Maud will be disposed of—passed off as mad, and made to live out the rest of her days in a lunatic asylum.",
+        author: "Sarah Waters",
+        synopsis: "Sue Trinder is an orphan, left as an infant in the care of Mrs. Sucksby, a baby farmer, who raised her with unusual tenderness, as if Sue were her own. Mrs. Sucksby's household, with its fussy babies calmed with doses of gin, also hosts a transient family of petty thieves—fingersmiths—for whom this house in the heart of a mean London slum is home. One day, the most beloved thief of all arrives—Gentleman, an elegant con man, who carries with him an enticing proposition for Sue: If she wins a position as the maid to Maud Lilly, a naïve gentlewoman, and aids Gentleman in her seduction, then they will all share in Maud's vast inheritance. Once the inheritance is secured, Maud will be disposed of—passed off as mad, and made to live out the rest of her days in a lunatic asylum.",
         price: 10,
         image: [image26],
         genre: "Fiction",
@@ -419,6 +525,7 @@ export const products = [
     {
         _id: "1027",
         name: "The Very Hungry Caterpillar",
+        author: "Eric Carle",
         synopsis: "One sunny Sunday, the caterpillar was hatched out of a tiny egg. He was very hungry. On Monday, he ate through one apple; on Tuesday, he ate through three plums--and still he was hungry. When full at last, he made a cocoon around himself and went to sleep, to wake up a few weeks later wonderfully transformed into a butterfly!",
         price: 7.75,
         image: [image27],
@@ -431,6 +538,7 @@ export const products = [
     {
         _id: "1028",
         name: "Greenmantle",
+        author: "John Buchan",
         synopsis: "When Richard Hannay is warned of an assassination plot that has potential to take Britain into a war, and then discovers in his flat the murdered body of the American that warned him, he becomes a prime suspect. He flees to the moors of Scotland and a spirited chase begins as he is pursued by the police and the German spies involved with stealing British plans. Buchan's tale unfolds into one of the seminal and most influential 'chase' books, mimicked by many, yet unrivaled in the tension and mystery created by his writing",
         price: 11.25,
         image: [image28],
@@ -443,6 +551,7 @@ export const products = [
     {
         _id: "1029",
         name: "Homo Deus: A History of Tomorrow",
+        author: "Yuval Noah Harari",
         synopsis: "Over the past century humankind has managed to do the impossible and rein in famine, plague, and war. This may seem hard to accept, but, as Harari explains in his trademark style—thorough, yet riveting—famine, plague and war have been transformed from incomprehensible and uncontrollable forces of nature into manageable challenges. For the first time ever, more people die from eating too much than from eating too little; more people die from old age than from infectious diseases; and more people commit suicide than are killed by soldiers, terrorists and criminals put together. The average American is a thousand times more likely to die from binging at McDonalds than from being blown up by Al Qaeda.",
         price: 20,
         image: [image29],
@@ -455,7 +564,8 @@ export const products = [
     {
         _id: "1030",
         name: "A Game of Thrones",
-        synopsis: "Long ago, in a time forgotten, a preternatural event threw the seasons out of balance. In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the north of Winterfell, sinister forces are massing beyond the kingdom’s protective Wall. To the south, the king’s powers are failing—his most trusted adviser dead under mysterious circumstances and his enemies emerging from the shadows of the throne. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the frozen land they were born to. Now Lord Eddard Stark is reluctantly summoned to serve as the king’s new Hand, an appointment that threatens to sunder not only his family but the kingdom itself.",
+        author: "George R.R. Martin",
+        synopsis: "Long ago, in a time forgotten, a preternatural event threw the seasons out of balance. In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the north of Winterfell, sinister forces are massing beyond the kingdom's protective Wall. To the south, the king's powers are failing—his most trusted adviser dead under mysterious circumstances and his enemies emerging from the shadows of the throne. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the frozen land they were born to. Now Lord Eddard Stark is reluctantly summoned to serve as the king's new Hand, an appointment that threatens to sunder not only his family but the kingdom itself.",
         price: 24,
         image: [image30],
         genre: "Fiction",
@@ -467,6 +577,7 @@ export const products = [
     {
         _id: "1031",
         name: "Becoming",
+        author: "Michelle Obama",
         synopsis: "In a life filled with meaning and accomplishment, Michelle Obama has emerged as one of the most iconic and compelling women of our era. As First Lady of the United States of America—the first African American to serve in that role—she helped create the most welcoming and inclusive White House in history, while also establishing herself as a powerful advocate for women and girls in the U.S. and around the world, dramatically changing the ways that families pursue healthier and more active lives, and standing with her husband as he led America through some of its most harrowing moments. Along the way, she showed us a few dance moves, crushed Carpool Karaoke, and raised two down-to-earth daughters under an unforgiving media glare.",
         price: 12,
         image: [image31],
@@ -479,6 +590,7 @@ export const products = [
     {
         _id: "1032",
         name: "21 Lessons for the 21st Century",
+        author: "Yuval Noah Harari",
         synopsis: "In Sapiens, he explored our past. In Homo Deus, he looked to our future. Now, one of the most innovative thinkers on the planet turns to the present to make sense of today's most pressing issues.",
         price: 15,
         image: [image32],
@@ -491,6 +603,7 @@ export const products = [
     {
         _id: "1033",
         name: "Harry Potter and the Prisoner of Azkaban",
+        author: "J.K. Rowling",
         synopsis: "Harry Potter, along with his best friends, Ron and Hermione, is about to start his third year at Hogwarts School of Witchcraft and Wizardry. Harry can't wait to get back to school after the summer holidays. (Who wouldn't if they lived with the horrible Dursleys?) But when Harry gets to Hogwarts, the atmosphere is tense. There's an escaped mass murderer on the loose, and the sinister prison guards of Azkaban have been called in to guard the school.",
         price: 45,
         image: [image33],
@@ -503,6 +616,7 @@ export const products = [
     {
         _id: "1034",
         name: "The Light We Carry",
+        author: "Michelle Obama",
         synopsis: "There may be no tidy solutions or pithy answers to life's big challenges, but Michelle Obama believes that we can all locate and lean on a set of tools to help us better navigate change and remain steady within flux. In The Light We Carry, she opens a frank and honest dialogue with readers, considering the questions many of us wrestle with: How do we build enduring and honest relationships? How can we discover strength and community inside our differences? What tools do we use to address feelings of self-doubt or helplessness? What do we do when it all starts to feel like too much?",
         price: 17.75,
         image: [image34],
@@ -515,6 +629,7 @@ export const products = [
     {
         _id: "1035",
         name: "Norwegian Wood",
+        author: "Haruki Murakami",
         synopsis: "Toru, a quiet and preternaturally serious young college student in Tokyo, is devoted to Naoko, a beautiful and introspective young woman, but their mutual passion is marked by the tragic death of their best friend years before. Toru begins to adapt to campus life and the loneliness and isolation he faces there, but Naoko finds the pressures and responsibilities of life unbearable. As she retreats further into her own world, Toru finds himself reaching out to others and drawn to a fiercely independent and sexually liberated young woman.",
         price: 15.35,
         image: [image35],
@@ -527,6 +642,7 @@ export const products = [
     {
         _id: "1036",
         name: "Blink: The Power of Thinking Without Thinking",
+        author: "Malcolm Gladwell",
         synopsis: "Drawing on cutting-edge neuroscience and psychology and displaying all of the brilliance that made The Tipping Point a classic, Blink changes the way you'll understand every decision you make. Never again will you think about thinking the same way.",
         price: 20.55,
         image: [image36],
@@ -539,6 +655,7 @@ export const products = [
     {
         _id: "1037",
         name: "On Beauty",
+        author: "Zadie Smith",
         synopsis: "This wise, hilarious novel reminds us why Zadie Smith has rocketed to literary stardom. On Beauty is the story of an interracial family living in the university town of Wellington, Massachusetts, whose misadventures in the culture wars-on both sides of the Atlantic-serve to skewer everything from family life to political correctness to the combustive collision between the personal and the political. Full of dead-on wit and relentlessly funny, this tour de force confirms Zadie Smith's reputation as a major literary talent.",
         price: 11.5,
         image: [image37],
@@ -551,6 +668,7 @@ export const products = [
     {
         _id: "1038",
         name: "Tipping the Velvet",
+        author: "Sarah Waters",
         synopsis: "Nan King, an oyster girl, is captivated by the music hall phenomenon Kitty Butler, a male impersonator extraordinaire treading the boards in Canterbury. Through a friend at the box office, Nan manages to visit all her shows and finally meet her heroine. Soon after, she becomes Kitty's dresser and the two head for the bright lights of Leicester Square where they begin a glittering career as music-hall stars in an all-singing and dancing double act. At the same time, behind closed doors, they admit their attraction to each other and their affair begins.",
         price: 13.25,
         image: [image38],
@@ -563,6 +681,7 @@ export const products = [
     {
         _id: "1039",
         name: "The Thirty-Nine Steps",
+        author: "John Buchan",
         synopsis: "When Richard Hannay is warned of an assassination plot that has potential to take Britain into a war, and then discovers in his flat the murdered body of the American that warned him, he becomes a prime suspect. He flees to the moors of Scotland and a spirited chase begins as he is pursued by the police and the German spies involved with stealing British plans. Buchan's tale unfolds into one of the seminal and most influential 'chase' books, mimicked by many, yet unrivaled in the tension and mystery created by his writing",
         price: 10.5,
         image: [image39],
@@ -575,6 +694,7 @@ export const products = [
     {
         _id: "1040",
         name: "Outliers: The Story of Success",
+        author: "Malcolm Gladwell",
         synopsis: "In this stunning book, Malcolm Gladwell takes us on an intellectual journey through the world of outliers—the best and the brightest, the most famous and the most successful. He asks the question: what makes high-achievers different?",
         price: 10.10,
         image: [image40],
@@ -587,6 +707,7 @@ export const products = [
     {
         _id: "1041",
         name: "A Clash of Kings",
+        author: "George R.R. Martin",
         synopsis: "A comet the color of blood and flame cuts across the sky. Two great leaders—Lord Eddard Stark and Robert Baratheon—who hold sway over an age of enforced peace are dead, victims of royal treachery. Now, from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns. Six factions struggle for control of a divided land and the Iron Throne of the Seven Kingdoms, preparing to stake their claims through tempest, turmoil, and war.",
         price: 40.45,
         image: [image41],
@@ -599,6 +720,7 @@ export const products = [
     {
         _id: "1042",
         name: "Pride & Prejudice",
+        author: "Jane Austen",
         synopsis: "Pride and Prejudice has charmed generations of readers for more than two centuries. Jane Austen's much-adapted novel is famed for its witty, spirited heroine, sensational romances, and deft remarks on the triumphs and pitfalls of social convention. Author Jane Austen (1775-1817) was an English novelist whose works of social realism achieved unprecedented critical and popular success, though Austen herself remained an anonymous writer throughout her life.",
         price: 30.25,
         image: [image42],
@@ -611,6 +733,7 @@ export const products = [
     {
         _id: "1043",
         name: "The Little Stranger",
+        author: "Sarah Waters",
         synopsis: "One postwar summer in his home of rural Warwickshire, Dr. Faraday, the son of a maid who has built a life of quiet respectability as a country physician, is called to a patient at lonely Hundreds Hall. Home to the Ayres family for over two centuries, the Georgian house, once impressive and handsome, is now in decline, its masonry crumbling, its gardens choked with weeds, the clock in its stable yard permanently fixed at twenty to nine. Its owners—mother, son, and daughter—are struggling to keep pace with a changing society, as well as with conflicts of their own. But are the Ayreses haunted by something more sinister than a dying way of life? Little does Dr. Faraday know how closely, and how terrifyingly, their story is about to become intimately entwined with his.",
         price: 21.25,
         image: [image43],
@@ -623,6 +746,7 @@ export const products = [
     {
         _id: "1044",
         name: "Brown Bear, Brown Bear, What Do You See?",
+        author: "Bill Martin Jr.",
         synopsis: "A big happy frog, a plump purple cat, a handsome blue horse, and a soft yellow duck--all parade across the pages of this delightful book. Children will immediately respond to Eric Carle's flat, boldly colored collages. Combined with Bill Martin's singsong text, they create unforgettable images of these endearing animals.",
         price: 7.45,
         image: [image44],
@@ -634,7 +758,8 @@ export const products = [
     },
     {
         _id: "1045",
-        name: "Oh, the Places You’ll Go!",
+        name: "Oh, the Places You'll Go!",
+        author: "Dr. Seuss",
         synopsis: "In his inimitable, humorous verse and pictures, he addresses the Great Balancing Act (life itself, and the ups and downs it presents) while encouraging us to find the success that lies within us.",
         price: 12.5,
         image: [image45],
@@ -647,6 +772,7 @@ export const products = [
     {
         _id: "1046",
         name: "Night Flight",
+        author: "Antoine de Saint-Exupéry",
         synopsis: "In this gripping novel, Saint-Exupéry tells about the brave men who piloted night mail planes from Patagonia, Chile, and Paraguay to Argentina in the early days of commercial aviation. Preface by André Gide. Translated by Stuart Gilbert.",
         price: 20.57,
         image: [image46],
@@ -659,6 +785,7 @@ export const products = [
     {
         _id: "1047",
         name: "Matilda",
+        author: "Roald Dahl",
         synopsis: "Matilda is a little girl who is far too good to be true. At age five-and-a-half she's knocking off double-digit multiplication problems and blitz-reading Dickens. Even more remarkably, her classmates love her even though she's a super-nerd and the teacher's pet. But everything is not perfect in Matilda's world...",
         price: 23.5,
         image: [image47],
@@ -671,7 +798,8 @@ export const products = [
     {
         _id: "1048",
         name: "American Grown",
-        synopsis: "Early in her tenure as First Lady, despite being a novice gardener, Michelle Obama planted a kitchen garden on the White House’s South Lawn. To her delight, she watched as fresh vegetables, fruit, and herbs sprouted from the ground. Soon the White House Kitchen Garden inspired a new conversation all across the country about the food we feed our families and the impact it has on the nutrition and well-being of our children.",
+        author: "Michelle Obama",
+        synopsis: "Early in her tenure as First Lady, despite being a novice gardener, Michelle Obama planted a kitchen garden on the White House's South Lawn. To her delight, she watched as fresh vegetables, fruit, and herbs sprouted from the ground. Soon the White House Kitchen Garden inspired a new conversation all across the country about the food we feed our families and the impact it has on the nutrition and well-being of our children.",
         price: 20.1,
         image: [image48],
         genre: "Non-Fiction",
@@ -683,6 +811,7 @@ export const products = [
     {
         _id: "1049",
         name: "Sense and Sensibility",
+        author: "Jane Austen",
         synopsis: "Marianne Dashwood wears her heart on her sleeve, and when she falls in love with the dashing but unsuitable John Willoughby she ignores her sister Elinor's warning that her impulsive behaviour leaves her open to gossip and innuendo. Meanwhile Elinor, always sensitive to social convention, is struggling to conceal her own romantic disappointment, even from those closest to her. Through their parallel experience of love—and its threatened loss—the sisters learn that sense must mix with sensibility if they are to find personal happiness in a society where status and money govern the rules of love.",
         price: 17,
         image: [image49],
@@ -695,6 +824,7 @@ export const products = [
     {
         _id: "1050",
         name: "The BFG",
+        author: "Roald Dahl",
         synopsis: "Captured by a giant! The BFG is no ordinary bone-crunching giant. He is far too nice and jumbly. It's lucky for Sophie that he is. Had she been carried off in the middle of the night by the Bloodbottler, the Fleshlumpeater, the Bonecruncher, or any of the other giants-rather than the BFG-she would have soon become breakfast. When Sophie hears that they are flush-bunking off in England to swollomp a few nice little chiddlers, she decides she must stop them once and for all. And the BFG is going to help her!",
         price: 7,
         image: [image50],
@@ -707,6 +837,7 @@ export const products = [
     {
         _id: "1051",
         name: "Nocturnes",
+        author: "Kazuo Ishiguro",
         synopsis: "One of the most celebrated writers of our time gives us his first cycle of short fiction: five brilliantly etched, interconnected stories in which music is a vivid and essential character.",
         price: 15,
         image: [image51],
@@ -719,6 +850,7 @@ export const products = [
     {
         _id: "1052",
         name: "A Little Life",
+        author: "Hanya Yanagihara",
         synopsis: "When four classmates from a small Massachusetts college move to New York to make their way, they're broke, adrift, and buoyed only by their friendship and ambition. There is kind, handsome Willem, an aspiring actor; JB, a quick-witted, sometimes cruel Brooklyn-born painter seeking entry to the art world; Malcolm, a frustrated architect at a prominent firm; and withdrawn, brilliant, enigmatic Jude, who serves as their center of gravity.",
         price: 19,
         image: [image52],
