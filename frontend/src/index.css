@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,11 +12,11 @@ a.active hr{
     font-family: Outfit;
 }
 
-.prata-regular {
-    font-family: "Prata", serif;
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
-}
+  }
 
 ::-webkit-scrollbar{
     display: none;
