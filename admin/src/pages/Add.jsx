@@ -131,6 +131,13 @@ const Add = ({token}) => {
             <p className={`${cover.includes("Hardcover with sleeve") ? "bg-pink-100" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>Hardcover with sleeve</p>
           </div>
 
+          <div onClick={() => setCover(prev =>
+            prev.includes("Softcover with sleeve")
+              ? prev.filter(item => item !== "Softcover with sleeve")
+              : [...prev, "Softcover with sleeve"])}>
+            <p className={`${cover.includes("Softcover with sleeve") ? "bg-pink-100" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>Softcovers with sleeve</p>
+          </div>
+
         </div>
       </div>
 
