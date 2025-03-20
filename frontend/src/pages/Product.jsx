@@ -49,6 +49,7 @@ const Product = () => {
         {/*-----------Product Info-----------*/}
         <div className='flex-1'>
           <h1 className='font-medium text-2xl mt-2'>{productData.name}</h1>
+          <p className='mt-2 text-lg text-gray-600'>by {productData.author}</p>
           <p className='mt-5 text-3xl font-medium'>{currency}{productData.price}</p>
           <p className='mt-5 text-gray-500 md:w-4/5'>{productData.synopsis}</p>
           <div className='flex flex-col gap-4 my-8'>
