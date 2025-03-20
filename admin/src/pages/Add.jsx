@@ -10,6 +10,7 @@ const Add = ({token}) => {
   const [image2, setImage2] = useState(false)
 
   const [name, setName] = useState("");
+  const [author, setAuthor] = useState("");
   const [synopsis, setSynopsis] = useState("");
   const [price, setPrice] = useState("");
   const [genre, setGenre] = useState("Fiction");
@@ -25,6 +26,7 @@ const Add = ({token}) => {
       const formData = new FormData()
 
       formData.append("name", name)
+      formData.append("author", author)
       formData.append("synopsis", synopsis)
       formData.append("price", price)
       formData.append("genre", genre)
@@ -40,6 +42,7 @@ const Add = ({token}) => {
       if (response.data.success) {
         toast.success(response.data.message)
         setName('')
+        setAuthor('')
         setSynopsis('')
         setImage1(false)
         setImage2(false)
@@ -74,6 +77,11 @@ const Add = ({token}) => {
       <div className='w-full'>
         <p className='mb-2'>Book name</p>
         <input onChange={(e)=>setName(e.target.value)} value={name} className='w-full max-w-[500px] px-3 py-2' type="text" placeholder='Type here' required/>
+      </div>
+
+      <div className='w-full'>
+        <p className='mb-2'>Author</p>
+        <input onChange={(e)=>setAuthor(e.target.value)} value={author} className='w-full max-w-[500px] px-3 py-2' type="text" placeholder='Type here' required/>
       </div>
 
       <div className='w-full'>
@@ -129,6 +137,13 @@ const Add = ({token}) => {
               ? prev.filter(item => item !== "Hardcover with sleeve")
               : [...prev, "Hardcover with sleeve"])}>
             <p className={`${cover.includes("Hardcover with sleeve") ? "bg-pink-100" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>Hardcover with sleeve</p>
+          </div>
+
+          <div onClick={() => setCover(prev =>
+            prev.includes("Softcover with sleeve")
+              ? prev.filter(item => item !== "Softcover with sleeve")
+              : [...prev, "Softcover with sleeve"])}>
+            <p className={`${cover.includes("Softcover with sleeve") ? "bg-pink-100" : "bg-slate-200"} px-3 py-1 cursor-pointer`}>Softcovers with sleeve</p>
           </div>
 
         </div>
