@@ -1,0 +1,12 @@
+{
+  "name": "wrpl_project",
+  "version": "1.0.0",
+  "description": "Bookeefy: personal bookstore website for selling and buying from the seller's collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
