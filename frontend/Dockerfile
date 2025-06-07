@@ -1,11 +1,9 @@
-# frontend/Dockerfile
 # Stage 1: Build the React application
 FROM node:20-slim as build
 
 WORKDIR /app
 
 COPY package*.json ./
-
 RUN npm install
 
 COPY . .
@@ -18,16 +16,16 @@ RUN npm run build
 # Stage 2: Serve the application with Nginx
 FROM nginx:alpine
 
-# Copy the built React app to the Nginx HTML directory
+# Set environment variable for Railway's dynamic port
+ENV PORT=8080
+
+# Copy built app
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Copy a custom Nginx configuration (optional, but good for SPAs)
+# Copy custom nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY health /usr/share/nginx/html/health
 
-# Expose the port Nginx listens on
-EXPOSE 80
-
-# Command to start Nginx
+EXPOSE ${PORT}
 CMD ["nginx", "-g", "daemon off;"]
