@@ -1,9 +1,11 @@
-# Stage 1: Build React app
+# frontend/Dockerfile
+# Stage 1: Build the React application
 FROM node:20-slim as build
 
 WORKDIR /app
 
 COPY package*.json ./
+
 RUN npm install
 
 COPY . .
@@ -13,24 +15,19 @@ ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
 
 RUN npm run build
 
-# Stage 2: Serve with nginx
+# Stage 2: Serve the application with Nginx
 FROM nginx:alpine
 
-ENV PORT=8080
-
-# Copy built React app
+# Copy the built React app to the Nginx HTML directory
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# Copy nginx template config
+# Copy a custom Nginx configuration (optional, but good for SPAs)
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copy health file
 COPY health /usr/share/nginx/html/health
 
-# Copy and make entrypoint executable
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+# Expose the port Nginx listens on
+EXPOSE 80
 
-EXPOSE 8080
-
-CMD ["/entrypoint.sh"]
+# Command to start Nginx
+CMD ["nginx", "-g", "daemon off;"]
