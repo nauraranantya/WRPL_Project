@@ -5,8 +5,6 @@ services:
     plan: free
     repo: https://github.com/nauraranantya/WRPL_Project
     dockerfilePath: backend/Dockerfile
-    buildCommand: ""
-    startCommand: "node server.js"
     autoDeploy: true
     envVars:
       - key: MONGODB_URI
@@ -32,8 +30,6 @@ services:
     plan: free
     repo: https://github.com/nauraranantya/WRPL_Project
     dockerfilePath: frontend/Dockerfile
-    buildCommand: ""
-    startCommand: "" # nginx will start automatically
     autoDeploy: true
     envVars:
       - key: VITE_BACKEND_URL
