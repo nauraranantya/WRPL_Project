@@ -1,0 +1,66 @@
+services:
+  - type: web
+    name: wrpl-backend
+    env: docker
+    repo: https://github.com/YOUR_USERNAME/WRPL_Project
+    dockerfilePath: backend/Dockerfile
+    buildCommand: ""
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENVservices:
+  - type: web
+    name: wrpl-backend
+    env: docker
+    plan: free
+    repo: https://github.com/nauraranantya/WRPL_Project
+    dockerfilePath: backend/Dockerfile
+    buildCommand: ""
+    startCommand: "node server.js"
+    autoDeploy: true
+    envVars:
+      - key: MONGODB_URI
+        fromDatabase:
+          name: wrpl-mongo
+          property: connectionString
+      - key: CLOUDINARY_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_SECRET_KEY
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: PORT
+        value: 4000
+      - key: NODE_ENV
+        value: production
+
+  - type: web
+    name: wrpl-frontend
+    env: docker
+    plan: free
+    repo: https://github.com/nauraranantya/WRPL_Project
+    dockerfilePath: frontend/Dockerfile
+    buildCommand: ""
+    startCommand: "" # nginx will start automatically
+    autoDeploy: true
+    envVars:
+      - key: VITE_BACKEND_URL
+        value: https://wrpl-backend.onrender.com
+
+databases:
+  - name: wrpl-mongo
+    plan: free
+    databaseName: wrpl
+        value: production
+
+  - type: web
+    name: wrpl-frontend
+    env: docker
+    repo: https://github.com/YOUR_USERNAME/WRPL_Project
+    dockerfilePath: frontend/Dockerfile
+    buildCommand: ""
+    startCommand: "npm run preview"
+    envVars:
+      - key: VITE_API_URL
+        value: https://wrpl-backend.onrender.com
