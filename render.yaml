@@ -2,15 +2,6 @@ services:
   - type: web
     name: wrpl-backend
     env: docker
-    repo: https://github.com/YOUR_USERNAME/WRPL_Project
-    dockerfilePath: backend/Dockerfile
-    buildCommand: ""
-    startCommand: "npm start"
-    envVars:
-      - key: NODE_ENVservices:
-  - type: web
-    name: wrpl-backend
-    env: docker
     plan: free
     repo: https://github.com/nauraranantya/WRPL_Project
     dockerfilePath: backend/Dockerfile
@@ -52,15 +43,3 @@ databases:
   - name: wrpl-mongo
     plan: free
     databaseName: wrpl
-        value: production
-
-  - type: web
-    name: wrpl-frontend
-    env: docker
-    repo: https://github.com/YOUR_USERNAME/WRPL_Project
-    dockerfilePath: frontend/Dockerfile
-    buildCommand: ""
-    startCommand: "npm run preview"
-    envVars:
-      - key: VITE_API_URL
-        value: https://wrpl-backend.onrender.com
