@@ -157,6 +157,22 @@ WRPL_Project/
 4. **Add to Cart:** Use "Add to Cart" on book details.
 5. **Checkout:** Review cart, provide shipping info, and confirm order.
 
+### Development Workflow
+1. **Daily Development**:
+- Run `npm run test:watch` for continuous testing
+- Use `npm run lint:fix` to maintain code quality
+- Check `npm run format` before committing
+
+2. **Before Committing**:
+- Run `npm test` to ensure all tests pass
+- Run `npm run lint` to check for linting errors
+- Run `npm run format:check` to verify formatting
+  
+3. **Before Pushing**:
+- Ensure all tests pass with coverage
+- Review changed files
+- Write meaningful commit messages
+
 ### Troubleshooting
 
 * Ensure containers are up: `docker-compose ps`
